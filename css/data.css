@@ -122,14 +122,14 @@ a{
     width:120px;
     height:12px;
     position:absolute;
-    bottom: 15px;
-    right: 32px;
+    bottom: 10px;
+    right: 10px;
     text-align: center;
     z-index: 200;
 }
 .dians{
-    height:10px;
-    width:10px;
+    height:8px;
+    width:8px;
     border-radius: 50%;
     margin-right: 3px;
     border: 2px solid #fff;
@@ -210,9 +210,9 @@ a{
     background-color: #ffffff;
 }
 .sc-head{
-    height:82px;
+    height:50px;
     width:100%;
-    line-height: 82px;
+    line-height: 50px;
 }
 .sc-head .sou{
     display: inline-block;
@@ -224,8 +224,8 @@ a{
 
 .sc-head .sou .ye-con{
     display: inline-block;
-    margin-left: 26px;
-    margin-right: 16px;
+    margin-left: 10px;
+    margin-right: 5px;
     width: 14px;
     height: 24px;
     margin-bottom: -6px;
@@ -236,7 +236,7 @@ a{
 .sc-head .sou .hot{
     display:inline-block;
     font-family: STXihei;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 

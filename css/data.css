@@ -119,11 +119,11 @@ a{
 }
 
 .dian {
-    width:120px;
+    width:108px;
     height:12px;
     position:absolute;
     bottom: 10px;
-    right: 10px;
+    right: 5px;
     text-align: center;
     z-index: 200;
 }
@@ -249,7 +249,7 @@ a{
     margin-left: -8px;
 }
 .m-list .hot-list{
-    margin-left: 8px;
+    margin-left: 3px;
 }
 .hot-list a{
     display: inline-block;

@@ -4,7 +4,7 @@ body{
     font-size: 12px;
     font-family: "STXihei";
 }
-ul,li,p,h1,h2,h3,h4,h5,h6,a{
+ul,li,p,h1,h2,h3,h4,h5,h6{
     margin: 0;padding: 0;
     list-style: none;
     font-weight:normal;
@@ -24,7 +24,7 @@ a{
 .con{
     width:560px;
     height: 42px;
-    margin: 0 20px;
+    margin: 0 8px;
 }
 .clear{
     clear: both;
@@ -32,19 +32,18 @@ a{
 .but{
     height:44px;
     width:60px;
-
     float:left;
-
-    color:#4e4e4e;
     font-size: 14px;
     font-family: "STXihei";
+    color:#4e4e4e;
     text-align: center;
     line-height: 44px;
     background:#ffffff;
     margin: 0 5px;
-
 }
-
+.but a{
+    color: #4e4e4e;
+}
 .but-yellow{
     color:#fed141;
     border-bottom:2px solid #fed141;
@@ -89,24 +88,48 @@ a{
 }
 /*结束*/
 
+.table{
+    width: 100%;
+}
+.menu1{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.contain{
+    width:440px;
+    height: 42px;
+    margin: 0 8px;
+
+}
+.cnv{
+    height:44px;
+    width:60px;
+    float:left;
+    font-size: 14px;
+    font-family: "STXihei";
+    color:#9c9c9c;
+    text-align: center;
+    line-height: 44px;
+
+    margin: 0 5px;
+}
+.cnv2{
+    width: 80px;
+}
+.cnv:hover{
+    color: #4e4e4e;
+    background:#ececec;
+    border-radius: 20px;
+}
 
 /*搜索*/
-
 .sc-con{
     margin-top: 10px;
     background-color: #ffffff;
 }
 
-
-.sc-con{
-    margin-top: 10px;
-    background-color: #ffffff;
-}
-.sc-head{
-    height:82px;
-    width:100%;
-    line-height: 82px;
-}
 .sc-head .sou{
     display: inline-block;
     height:36px;
@@ -119,9 +142,9 @@ a{
     display: inline-block;
     margin-left: 26px;
     margin-right: 16px;
-    width: 16px;
-    height: 30px;
-    margin-bottom: -10px;
+    width: 14px;
+    height: 24px;
+    margin-bottom: -6px;
     background-color: #F5CF00;
     border-radius: 6px;
 
@@ -129,44 +152,7 @@ a{
 .sc-head .sou .hot{
     display:inline-block;
     font-family: STXihei;
-    /*font-size: 20px;*/
-}
-.table{
-    width: 100%;height: auto;
-    overflow: hidden;
-    border-bottom: 2px solid #ececec;
-}
-.table-margin{
-    margin: 0 10px;
-}
-.scoll{
-    width: 100%;
-    overflow: hidden;
-    overflow-x: scroll;
-}
-.menu1{
-    width: 900px;
-    height: 44px;
-    overflow: hidden;
-}
-.menu2{
-    width: 100%;
-    height: 44px;
-    overflow: hidden;
-}
-.nav{
-    height: 40px;
-    line-height: 30px;
-    font-size: 14px;
-    padding: 5px 15px;
-    margin: 0 5px;
-    color: #9c9c9c;
-    float: left;
-}
-.nav:hover{
-    color: #4e4e4e;
-    border-radius: 20px;
-    background: #ececec;
+    font-size: 22px;
 }
 
 
@@ -202,16 +188,20 @@ a{
 }
 .hot-list h3{
     width:100%;
-    font-size: 20px;
+    font-size:16px;
     color:#4E4E4E;
     margin-top: 8px
 }
 .hot-list h4{
     width:100%;
-    font-size: 18px;
+    font-size: 14px;
     color:#9c9c9c;
     margin-top: 6px ;
     margin-bottom: 12px;
+}
+.tiao{
+    width: 100%;height: 10px;
+    background-color: #e2e2e2;
 }
 /*热门*/
 .hot-topic{
@@ -227,15 +217,14 @@ a{
 }
 .hot-title h3{
     width:100%;
-    font-size: 28px;
+    font-size: 20px;
     color:#4E4E4E;
     margin-top: 16px
 }
 .hot-title h4{
     width:100%;
-    font-size: 24px;
+    font-size: 18px;
     color:#9c9c9c;
     margin-top: 11px ;
     margin-bottom: 16px;
 }
-
